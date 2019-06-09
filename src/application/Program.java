@@ -16,7 +16,7 @@ public class Program {
 		ChessMatch chessMatch = new ChessMatch();
 		while (true) {
 			try {
-				UI.printBoard(chessMatch.getPieces());
+				UI.printMatch(chessMatch);
 				System.out.println();
 				System.out.print("Digite a posição de origem: ");
 				ChessPosition source = UI.readChessPosition(sc);
